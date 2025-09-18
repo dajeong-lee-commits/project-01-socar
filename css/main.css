@@ -433,12 +433,13 @@ body {
 }
 
 .footer .inner .info_wrap .address ul li {
-    content: '';
+    /*(content: '';
     width: 1px;
     height: 15px;
     background-color: #fff;
     position: absolute;
-    /*top: 50%;
+    display: flex;
+    top: 50%;
     left: -10px;
     transform: translateY(-50%);*/
 }
@@ -472,7 +473,7 @@ body {
     font-weight: 700;
 }
 
-.footer .inner .footer_nav .gnb>li .depth-02 li {
+.footer .inner .footer_nav .gnb > li .depth-02 li {
     margin-top: 10px;
 }
 
